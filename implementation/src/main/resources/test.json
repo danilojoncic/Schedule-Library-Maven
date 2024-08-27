@@ -1,0 +1,12 @@
+{
+  "header" : {
+    "contents" : ["header1","header2","header3","header4"  ]
+  },
+  "containsHeader" : true,
+  "allRows" : [ {
+    "contents" : ["field1","field2","field3","field4"
+    ]
+  }, {
+    "contents" : ["abc","def","ghi","jkl" ]
+  } ]
+}
