@@ -5,11 +5,14 @@ A simple and generic schedule library, using Apache Maven build software, the fo
 - mvn package
 - mvn test
 ### Features
+- Compile-time specification module
+- Run-time implementation module
+- gui which includes both as well as many others libraries as maven dependencies
 - Importing a schedule contained in a .json or .csv file
 - Editing of individual rows
-- Creating of new rows
-- Deleting of not important columns
-- Adding a calendar linked column
+- Creation of new rows
+- Deletion of not important columns
+- Addition a calendar linked column for either representing starting and ending dates of an event or a simple date (means duplicates will be created for all the dates within the period)
 - Filtering the contents of the schedule on any keyword containd in its rows
 - Exporting of the now edited, mangled or even ruined schedule to either .json or .csv files
 ### Tests
@@ -32,7 +35,7 @@ A simple and generic schedule library, using Apache Maven build software, the fo
 - Run the following command in the terminal `java -jar \path\to\filename.jar
 ## Issues
 - As the gui was written to be minimalistic in the code and in its appearance, please use "Common Sense" when exploring the features
-- Excpetion handling is missing for several suspicious actions
+- Excepetion handling is missing for several suspicious actions
 - Using the calendar button requires the imported schedule to have a collumn named "Dan" on the index field 4, so if the imported schedule does not have it, unfortunately this feature is not advised to be used as it will lead to several exception or the program freezing
 - Please dont use for any serious schedule "enhancments"
 ## Thanks
